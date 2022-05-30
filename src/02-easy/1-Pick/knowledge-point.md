@@ -1,4 +1,10 @@
 ## Knowledge
 * in
 * keyof
-* extends
+* extends  
+
+
+
+  
+  
+* union类型的循环 [I in union]
