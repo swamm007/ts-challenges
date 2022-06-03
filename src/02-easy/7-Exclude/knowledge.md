@@ -33,3 +33,6 @@
       x' extends 'x' ? string : number => string
       x' extends 'x' ? string : number => string
    ```
+
+   文章解释  
+   https://juejin.cn/post/6998736350841143326
