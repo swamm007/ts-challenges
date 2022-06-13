@@ -1,1 +1,3 @@
-type MyReadonly2<T, K> = any
+type MyReadonly2<T, K> = {
+    readonly [key in keyof T]: T[key]
+}
