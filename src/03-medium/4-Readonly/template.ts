@@ -1,3 +1,1 @@
-type MyReadonly2<T, K> = {
-    readonly [key in keyof T]: T[key]
-}
+type MyReadonly2<T, K extends keyof T> = T & {readonly [key in K]: T[key]}
